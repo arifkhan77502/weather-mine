@@ -1,0 +1,57 @@
+
+*, body{
+    margin: 0 auto;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: rgba(255,255,255,.8);
+    background-color: #2c2d30;
+    letter-spacing: .02rem
+}
+
+.wrapper{
+    box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
+    border: 2rem;
+    position: relative;
+    width: 100%;
+    top: 1rem;
+    border-radius: 2rem;
+}
+
+article h5{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: inset -3px -3px 3px #202125, inset 3px 3px 3px #353535;
+    border-radius: 2rem;
+    background-color: #2c2d30;
+    margin: 10px auto;
+    color: #f56c6d;
+}
+
+#temp, #pressure, #humidity, #status{
+    color: #f56c6d;
+}
+
+.form-control, .form-control:focus{
+    box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
+    border-radius: 2rem;
+    background-color: #2c2d30;
+    border: none;
+    text-align: center;
+}
+
+#search, #search:focus{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: inset -3px -3px 3px #202125, inset 3px 3px 3px #353535;
+}
+
+#search:focus{
+    box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
+    transition: box-shadow 0.2s ease-in-out;
+}
